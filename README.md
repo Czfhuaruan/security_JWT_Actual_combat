@@ -36,6 +36,14 @@ api_gateway（网关配置类）：包括服务路由定义，及nacos注册中�
 
 service_acl (用户管理服务) ：包括登录服务以及用户权限管理模块
 
+##部署步骤
 
+前端：
+建议使用（vs-code）克隆https://gitee.com/fxzcloud/vue-1010.git，
+选择vue-admin-1010项目查看它的README.md，进行构建启动（步骤简单，有一定vuex基础就可以了）。
+
+后端：
+clone本项目，引进pom的依赖，修改配置文件中的mysql，nacos,redis的配置，先后启动mysql,nacos，redis
+，然后启动api_gateway服务，最后启动service_acl服务，可在nacos监控页面中看到这两个服务注册成功，就可以进行测试。
 
 
