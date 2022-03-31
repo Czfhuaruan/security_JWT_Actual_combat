@@ -16,6 +16,11 @@
             <artifactId>spring_security</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency> <!--maven中存在依赖传递-->
+            <groupId>org.example</groupId>
+            <artifactId>common_utils</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>

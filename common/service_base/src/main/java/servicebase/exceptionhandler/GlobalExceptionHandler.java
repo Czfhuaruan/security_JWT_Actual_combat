@@ -21,6 +21,4 @@ public class GlobalExceptionHandler { //全局异常处理类
     //特定异常处理
     //自定义异常处理
 
-
-
 }
